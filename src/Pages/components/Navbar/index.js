@@ -19,7 +19,9 @@ const NavigationBar = () => {
                     <Navbar.Collapse className='collapse' id="basic-navbar-nav">
                         <Nav className="ml-auto navItems">
                             <Nav.Link as={Link} to="/" className='navItem'>Home</Nav.Link>
-                            <NavDropdown title="Collection" className='navItem' id="basic-nav-dropdown">
+                            <NavDropdown title={
+                                <span className="navItem">Collection</span>
+                            } className='dropdownLink' id="basic-nav-dropdown">
                                 <NavDropdown.Item as={Link} to="/tshirts">
                                     T-shirts
                                 </NavDropdown.Item>
