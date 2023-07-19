@@ -8,13 +8,16 @@ import Pricing from './Pages/Pricing';
 import Customers from './Pages/Customers';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
-
+import Crewneck from './Pages/Crewnecks';
+import Hoodie from './Pages/Hoodies';
 const App = () => {
  return (
     <>
        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/tshirts" element={<Tshirt/>} />
+          <Route path="/crewnecks" element={<Crewneck/>} />
+          <Route path="/hoodies" element={<Hoodie/>} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/customers" element={<Customers />} />
           <Route path="/about" element={<About />} />

@@ -1,0 +1,101 @@
+.customCont {
+    z-index: 1;
+    width: 1200px !important;
+    max-width: 100% !important;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    display: block;
+    position: relative;
+}
+
+.footer-div{
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(219, 219, 219, .1);
+    border: 1px #000;
+    padding-top: 100px;
+    padding-bottom: 0;
+    line-height: 24px;
+    position: relative;
+}
+
+.heading {
+    color: #edb838;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: Pacifico, sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.footer-text{
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 24px;
+    text-align: center;
+    font-size: 16px;
+    color: #6c6c6c;
+    font-weight:500;
+}
+
+.footer-col{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.footer-img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    width: 50px;
+    overflow: clip;
+}
+
+.footer-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #000;
+    margin-top: 10px;
+}
+
+.footer-p{
+    text-align: center;
+    font-size: 16px;
+    width: 75%;
+    font-family: Libre Franklin, sans-serif;
+    line-height: 24px;
+    color: #6c6c6c;
+    margin-bottom: 40px
+}
+
+.footer-copyright{
+    justify-content: center;
+    display: block;
+    background-color: rgba(219, 219, 219, .1);
+    border-top: 1px solid #ebebeb;
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.copyright{
+    text-align: right;
+    padding-left: 1px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    display: inline-block;
+    color: #6c6c6c;
+    margin-bottom: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+}

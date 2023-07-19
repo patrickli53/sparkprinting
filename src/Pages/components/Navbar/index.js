@@ -42,31 +42,6 @@ const NavigationBar = () => {
                 </div>
             </Container>
         </Navbar>
-
-        //     {/* <Navbar className='navbarBg' variant="dark">
-        //             <Link to="/"> 
-        //                 <Navbar.Brand>
-        //                     <h3 class="heading">Spark Printing</h3>
-        //                 </Navbar.Brand>
-        //             </Link> */}
-        // {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        //             <Navbar.Collapse id="basic-navbar-nav">
-        //                 <Nav className="ml-auto">
-
-        //                     <Link className='navlink' to="/addcoin">
-        //                         <Button className="mr-4 navbutton">
-        //                             Add Coin
-        //                         </Button>
-        //                     </Link>
-        //                     <Link  className='navlink' to="/promote">
-        //                         <Button  className="mr-4 navbutton">
-        //                             Promote
-        //                         </Button>
-        //                     </Link>
-        //                     {logInButton()}
-        //                 </Nav>
-        //             </Navbar.Collapse> */}
-        // {/* </Navbar> */ }
     )
 }
 

@@ -1,6 +1,6 @@
 import './styles.css'
 
-const Banner = ({ images, speed = 5000 }) => {
+const Banner = ({ images, speed = 9000 }) => {
     return (
       <div className="inner">
         <div className="wrapper">
