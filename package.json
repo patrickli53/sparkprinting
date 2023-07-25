@@ -1,7 +1,7 @@
 {
   "name": "sparkprinting",
   "version": "0.1.0",
-  "homepage": "http://patrickli53.github.io/sparkprinting",
+  "homepage": "https://patrickli53.github.io/sparkprinting/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
