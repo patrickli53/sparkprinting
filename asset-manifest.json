@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sparkprinting/static/css/main.a876b8f5.css",
-    "main.js": "/sparkprinting/static/js/main.2713fda5.js",
+    "main.js": "/sparkprinting/static/js/main.ee570380.js",
     "static/js/787.2b9f3ecf.chunk.js": "/sparkprinting/static/js/787.2b9f3ecf.chunk.js",
     "static/media/hoodiewc.webp": "/sparkprinting/static/media/hoodiewc.a738f543882a3b5a60be.webp",
     "static/media/crewwc.webp": "/sparkprinting/static/media/crewwc.98106237f01435202696.webp",
@@ -56,11 +56,11 @@
     "static/media/amacss-logo.webp": "/sparkprinting/static/media/amacss-logo.e6f7a2b234b8ec477fcc.webp",
     "index.html": "/sparkprinting/index.html",
     "main.a876b8f5.css.map": "/sparkprinting/static/css/main.a876b8f5.css.map",
-    "main.2713fda5.js.map": "/sparkprinting/static/js/main.2713fda5.js.map",
+    "main.ee570380.js.map": "/sparkprinting/static/js/main.ee570380.js.map",
     "787.2b9f3ecf.chunk.js.map": "/sparkprinting/static/js/787.2b9f3ecf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a876b8f5.css",
-    "static/js/main.2713fda5.js"
+    "static/js/main.ee570380.js"
   ]
 }
