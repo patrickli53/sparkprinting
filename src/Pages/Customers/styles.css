@@ -1,0 +1,10 @@
+.customCont.highlights{
+    margin-top: 200px;
+    height: 60vh;
+}
+
+.highlights-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

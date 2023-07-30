@@ -1,0 +1,51 @@
+.swiper {
+    width: 500px;
+    height: 700px;
+}
+
+.swiper-slide {
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    background-position: 0 0;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    box-shadow: -11px 11px 15px rgba(0, 0, 0, .2);
+    color: #edb838;
+    -webkit-text-stroke-color: black;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, .92);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.swiper-slide:nth-child(1n) {
+    background-image: url('https://uploads-ssl.webflow.com/63c778a3c7ba4a31791de16a/649233c49a3d5acd11e65483_IMG_5487.webp')
+}
+
+.swiper-slide:nth-child(2n) {
+    background-image: url('https://uploads-ssl.webflow.com/63c778a3c7ba4a31791de16a/64923be35e2b36817a3fc7b0_IMG_5493.webp')
+}
+
+.swiper-slide:nth-child(3n) {
+    background-image: url('https://uploads-ssl.webflow.com/63c778a3c7ba4a31791de16a/649237e48154e53660cc3f61_IMG_5488.webp')
+}
+
+.mySwiper{
+    color: #edb838;
+    text-align: center;
+    -webkit-text-stroke-color: black;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, .92);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+}
