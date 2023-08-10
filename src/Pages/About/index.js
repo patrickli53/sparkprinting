@@ -1,13 +1,13 @@
 import NavigationBar from "../components/Navbar";
 import Footer from '../components/Footer'
 import './styles.css';
-import FlipCard from "../components/FlipCard";
+import CardGrid from "../components/CardGrid";
 
 const About = () => {
     return(
         <>
             <NavigationBar/>
-            {/* <FlipCard/> */}
+            <CardGrid className='cardList'/>
             <Footer/>
 
 
