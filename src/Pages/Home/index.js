@@ -90,7 +90,7 @@ const Home = () => {
                         <h1 className='page-title customPrint'>Offering Two High-Quality Lines</h1>
                         <div className='button-cont'>
                             <Row>
-                                <Col sm='6' xs='12'>
+                                <Col xs='6'>
                                     <div className='print-button'>
                                         <Link className='print-link' to='/athletic'>
                                             <img className='print-img' src={athlete}></img>
@@ -99,7 +99,7 @@ const Home = () => {
                                     </div>
 
                                 </Col>
-                                <Col sm='6' xs='12'>
+                                <Col xs='6'>
                                     <div className='print-button'>
                                         <Link className='print-link' to='/comfort'>
                                             <img className='print-img' src={cloud}></img>
