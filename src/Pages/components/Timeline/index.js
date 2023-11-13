@@ -47,12 +47,13 @@ const HorTimeline = () => {
         showAllCardsHorizontal='true' 
         slideShow='true' 
         timelinePointDimension='90'
+        noUniqueId='true'
         theme={{
             primary: '#edb8384a',
             secondary: '#edb8384a',
             cardBgColor: '#f7e2b0',
             titleColor: 'black',
-            titleColorActive: 'redb8384',
+            titleColorActive: '#edb8384',
           }}
     >
         <div className="chrono-icons">
