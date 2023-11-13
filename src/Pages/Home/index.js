@@ -1,5 +1,5 @@
 import NavigationBar from '../components/Navbar'
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row, Accordion } from 'react-bootstrap'
 import Quote from '../components/Quote'
 
 import './styles.css'
@@ -16,13 +16,13 @@ import oneact from '../../assets/oneact.png'
 import rlh from '../../assets/rlh.png'
 import fsa from '../../assets/utmfsa.png'
 import utmsu from '../../assets/utmsu.png'
-import affordable from '../../assets/undraw_savings_re_eq4w.svg'
+import HorTimeline from '../components/Timeline'
 import design from '../../assets/undraw_design_team_re_gh2d.svg'
 import support from '../../assets/undraw_instant_support_re_s7un.svg'
-import tshirt from '../../assets/tshirt.webp'
-import hoodie from '../../assets/hoodie.webp'
-import crewneck from '../../assets/crewneck.webp'
+import athlete from '../../assets/icons8-runner-on-the-start-96.png'
+import cloud from '../../assets/icons8-cloud-96.png'
 import Footer from '../components/Footer'
+import FAQ from '../components/FAQ'
 
 
 const images = [
@@ -68,12 +68,12 @@ const Home = () => {
                     </Container>
                 </div>
                 <div className='groups'>
-                    <a className='customerLink' href='/customers'>
+                    <Link className='customerLink' to='/customers'>
                         <div className='rotatingcontainer'>
                             <h2> Our Trusted Student Groups</h2>
                         </div>
                         <Banner images={images} speed={9000} />
-                    </a>
+                    </Link>
                 </div>
                 <div className='info1'>
                     <h1 className='titles'>
@@ -81,81 +81,40 @@ const Home = () => {
                     </h1>
                     <Container className='infoCont'>
                         <Row className='textRow'>
-                            <Col sm={6}>
-                                <img className='undraw' src={affordable}></img>
-                            </Col>
-                            <Col sm={6}>
-                                <h3 className='infoH3'>
-                                    Affordable Custom T-Shirt Printing
-                                </h3>
-                                <p className='p2'>
-                                    We are the most affordable custom t-shirt printing business in Toronto, with prices as low as $7 per full-color print shirt!
-                                </p>
-                                <Link to="/pricing" class="top-text infoLink">Pricing Chart</Link>
-                            </Col>
-                        </Row>
-                        <Row className='textRow'>
-                            <Col sm={6}>
-                                <h3 className='infoH3'>
-                                    Expert T-Shirt Design
-                                </h3>
-                                <p className='p2'>
-                                    We have a team of design experts that will provide advice and optimize logo placements for FREE!
-                                </p>
-                            </Col>
-                            <Col sm={6}>
-                                <img className='undraw' src={design}></img>
-                            </Col>
-                        </Row>
-                        <Row className='textRow'>
-                            <Col sm={6}>
-                                <img className='undraw' src={support}></img>
-                            </Col>
-                            <Col sm={6}>
-                                <h3 className='infoH3'>
-                                    Responsive Customer Service
-                                </h3>
-                                <p className='p2'>
-                                    We don't take business days to respond. Talk to us and we will get back to you within hours and sometimes within minutes!
-                                </p>
-                            </Col>
+                            <HorTimeline />
                         </Row>
                     </Container>
                 </div>
                 <div className='groups'>
                     <Container className='customCont'>
-                        <h1 className='page-title customPrint'>Custom T-Shirt Printing and More</h1>
+                        <h1 className='page-title customPrint'>Offering Two High-Quality Lines</h1>
                         <div className='button-cont'>
                             <Row>
-                                <Col sm='4' xs='12'>
+                                <Col sm='6' xs='12'>
                                     <div className='print-button'>
-                                        <Link className='print-link' to='/tshirts'>
-                                            <img className='print-img' src={tshirt}></img>
-                                            <h3 className='print-text'> T-SHIRTS</h3>
+                                        <Link className='print-link' to='/athletic'>
+                                            <img className='print-img' src={athlete}></img>
+                                            <h3 className='print-text'> ATHLETIC</h3>
                                         </Link>
                                     </div>
 
                                 </Col>
-                                <Col sm='4' xs='12'>
+                                <Col sm='6' xs='12'>
                                     <div className='print-button'>
-                                        <Link className='print-link' to='/hoodies'>
-                                            <img className='print-img' src={hoodie}></img>
-                                            <h3 className='print-text'> HOODIES</h3>
-                                        </Link>
-                                    </div>
-
-                                </Col>
-                                <Col sm='4' xs='12'>
-                                    <div className='print-button'>
-                                        <Link className='print-link' to='/crewnecks'>
-                                            <img className='print-img' src={crewneck}></img>
-                                            <h3 className='print-text'> CREWNECKS</h3>
+                                        <Link className='print-link' to='/comfort'>
+                                            <img className='print-img' src={cloud}></img>
+                                            <h3 className='print-text'> COMFORT</h3>
                                         </Link>
                                     </div>
 
                                 </Col>
                             </Row>
                         </div>
+                    </Container>
+                </div>
+                <div className='info-1'>
+                    <Container className='customCont'>
+                       <FAQ/>
                     </Container>
                 </div>
                 <Quote/>

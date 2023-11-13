@@ -2,3 +2,108 @@
     margin-top:250px;
     height: 100vh;
 }
+h1 {
+    margin-bottom: 12px;
+}
+
+.meetTitle{
+    margin-bottom: 4rem !important;
+}
+.aboutBlock{
+    background-color: #f8f8f8 !important;
+}
+.profileCard{
+    text-align: center;
+    background-color: #fff;
+    border: 1px #eaf0fd;
+    border-radius: 0;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px;
+    display: block;
+}
+
+.profileCard:hover{
+    box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, .2);
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-position: 50%;
+    background-size: contain;
+}
+.icon-title{
+    color: #1f2532;
+    margin-bottom: 5px;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0;
+}
+
+.icon-subtitle{
+    color: #a1a1a1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    margin: 0 auto 20px;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+}
+.data {
+    padding: 32px;
+    padding-top: 24px;
+    background-color: #fff;
+}
+
+.collection-hero{
+    background-image: linear-gradient(to right, #f8f6f4 30%, rgba(0, 0, 0, 0)), url(../../assets/heroimg.webp);
+    background-position: 0 0, 50% 100%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    background-attachment: scroll, scroll;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 130px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.collection-title-block{
+    z-index: 1;
+    width: 50%;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 50%;
+    padding-left: 15px;
+    padding-right: 5%;
+    display: flex;
+    position: relative;
+}
+
+.collection-title{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 54px;
+    margin-top: 20px;
+    margin-bottom:10px;
+}
