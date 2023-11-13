@@ -20,19 +20,15 @@ const NavigationBar = () => {
                         <Nav className="ml-auto navItems">
                             <Nav.Link as={Link} to="/" className='navItem'>Home</Nav.Link>
                             <NavDropdown title={
-                                <span className="navItem">Collection</span>
+                                <span className="navItem">T-Shirts</span>
                             } className='dropdownLink' id="basic-nav-dropdown">
-                                <NavDropdown.Item as={Link} to="/tshirts">
-                                    T-shirts
+                                <NavDropdown.Item as={Link} to="/athletic">
+                                    Athletic
                                 </NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to="/crewnecks">
-                                    Crewnecks
-                                </NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to="/hoodies">
-                                    Hoodies
+                                <NavDropdown.Item as={Link} to="/comfort">
+                                    Comfort
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link className='navItem' as={Link} to="/pricing">Pricing</Nav.Link>
                             <Nav.Link className='navItem' as={Link} to="/customers">Customer</Nav.Link>
                             <Nav.Link className='navItem' as={Link} to="/about">About</Nav.Link>
                             <Nav.Link className='navItem' as={Link} to="/contact">Contact</Nav.Link>

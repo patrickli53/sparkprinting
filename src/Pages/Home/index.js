@@ -52,7 +52,7 @@ const Home = () => {
                             <div className='heroText'>
                                 <h1 class="page-title">Custom T-shirt Printing for Students in Toronto and Across Canada</h1>
                                 <p class="paragraph">Toronto's most affordable shop for custom t-shirt printing for your club or event</p>
-                                <Link to="/pricing" class="top-text hero">AS LOW AS $7 PER SHIRT!</Link>
+                                <Link to="/athletic" class="top-text hero">$8 PER SHIRT, CUSTOMIZATION INCLUDED!</Link>
                                 <br />
                                 <div className='topPadding'>
                                     <Button href="https://meetings.hubspot.com/pengfei-fu" id='quote-button'>Get a quote now :)</Button>
@@ -77,7 +77,7 @@ const Home = () => {
                 </div>
                 <div className='info1'>
                     <h1 className='titles'>
-                        What students love us for
+                        Order Timeline
                     </h1>
                     <Container className='infoCont'>
                         <Row className='textRow'>
