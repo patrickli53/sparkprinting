@@ -12,27 +12,27 @@ const HorTimeline = () => {
     {
         title: "Initial Meeting",
         cardTitle: "1 Day",
-        cardDetailedText:"Meet with Spark to discuss order details",
+        cardDetailedText:"Let's chat about your vision! Schedule a session with Spark to tailor your order.",
     },
     {
         title: "Quote",
         cardTitle: "1 Day",
-        cardDetailedText:"Calculate details of estimated quote",
+        cardDetailedText:"Get your personalized estimate! We'll crunch the numbers for a quote that suits your budget.",
     },
     {
         title: "Place Order",
         cardTitle: "1 Day",
-        cardDetailedText: "Spark submits the order to our manufacturer"
+        cardDetailedText: "Making it official! Spark will forward your order to start the creation process."
     },
     {
         title: "Manufacturing",
         cardTitle: "3 weeks",
-        cardDetailedText:"Factory manufactures your shirts, to order!",
+        cardDetailedText:"Crafting with care! Our factory is now bringing your custom shirts to life.",
     },
     {
         title: "Delivery",
         cardTitle: "2 - 4 Weeks",
-        cardDetailedText: "Standard - 2 Weeks, Express - 4 weeks"
+        cardDetailedText: "Choose Standard (2 weeks) or Express (4 weeks) for your delivery speed."
     },
  ];
 
@@ -42,7 +42,7 @@ const HorTimeline = () => {
         mode='HORIZONTAL' 
         items={items} 
         cardWidth='175'
-        cardHeight='120'
+        cardHeight='150'
         hideControls='true' 
         showAllCardsHorizontal='true' 
         slideShow='true' 

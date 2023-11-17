@@ -28,7 +28,12 @@
 .collapse {
     justify-content: flex-end;
 }
-
+@media screen and (max-width: 430px) {
+    .heading{
+        font-size:20px!important;
+        line-height: 20px !important;
+    }
+}
 .heading {
     color: #edb838;
     text-align: center;

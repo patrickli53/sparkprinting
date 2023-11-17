@@ -11,6 +11,33 @@
     position: relative;
 }
 
+@media screen and (max-width: 430px) {
+    .leftHero {
+      flex-direction: column-reverse !important;
+      text-align:center !important;
+    }
+    .heroText,
+    .heroImg-div {
+      width: auto!important;
+    }
+    .page-title {
+        font-size: 20px !important;
+        line-height: 37px !important;
+    }
+    .heroImg {
+        width: 400px !important;
+        height: 225px !important;
+        object-fit: contain !important;
+        margin-left:0 !important;
+
+  }
+  .caption {
+    padding-top: 50px !important;
+    margin-bottom: 1rem !important;
+    font-size: 14px !important;
+    margin-left: 2rem !important;
+    }
+}
 .homeBody {
     margin-top: 80px
 }
@@ -247,7 +274,7 @@ h2 {
 .print-button {
     width: 240px;
     height: 240px;
-    border: 30px solid rgba(0, 0, 0, .05);
+    border: 20px solid rgba(0, 0, 0, .05);
     border-radius: 240px;
     flex-direction: column;
     justify-content: center;
@@ -340,3 +367,25 @@ h2 {
     font-weight: 500 !important;
 }
 
+.top-btn-position {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+  }
+  
+  .top-btn-style {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .top-btn-style:hover {
+    animation: none;
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #fff;
+  }

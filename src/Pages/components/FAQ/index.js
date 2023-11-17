@@ -10,39 +10,64 @@ const FAQ = () => {
                 <Accordion.Item eventKey="0">
                     <Accordion.Header className='prod-p'>What payment methods do you accept?</Accordion.Header>
                     <Accordion.Body>
-                        <p className='faqtext'>We accept a variety of payment methods, including major credit cards, debit cards, and secure online payment platforms for your convenience. Your transaction is in safe hands with our trusted payment gateways.</p>
+                        <p className='faqtext'>Flexibility at checkout! You can easily pay through online Email Transfer or by cheque. Pick the option that works best for you!</p>
 
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
                     <Accordion.Header className='prod-p'>What is your return policy?</Accordion.Header>
                     <Accordion.Body>
-                        <p className='faqtext'>To maintain product integrity and hygiene, we do not accept returns. Please carefully review your order before confirming the purchase. If you have any concerns, our customer support team is here to assist you.</p>
+                        <p className='faqtext'>Custom made just for you! Review and tweak your order details before finalizing. Once your order is placed, it's set to go as we craft it to your unique specifications. Returns aren't available since it's tailored to you, but we're here to ensure you love what you order!</p>
 
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
                     <Accordion.Header className='prod-p'>How long does it take to receive my order?</Accordion.Header>
                     <Accordion.Body>
-                        <p className='faqtext'>Your satisfaction is our priority. Standard delivery time is approximately 5 weeks from the order placement date, while standard shipping may take up to 7 weeks. Rest assured, the wait is worth it for the premium quality you'll receive.</p>
+                        <p className='faqtext'>Greatness takes time! Expect your bespoke items to arrive in about 5 weeks, or opt for standard shipping to get them within 7 weeks. Your patience will be rewarded with unmatched quality.</p>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
                     <Accordion.Header className='prod-p'>What is your import/export policy?</Accordion.Header>
                     <Accordion.Body>
-                        <p className='faqtext'>We cater to global tastes! We offer international shipping, and our import/export processes comply with all relevant regulations. Feel free to place your order from anywhere in the world.</p>
+                        <p className='faqtext'>Fashion knows no borders! We're thrilled to ship your custom designs worldwide, adhering to all international guidelines. Wherever you are, you're just an order away from something special.</p>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="4">
                     <Accordion.Header className='prod-p'>What printing method is used for the t-shirts?</Accordion.Header>
                     <Accordion.Body>
-                        <p className='faqtext'>Our t-shirts are crafted using state-of-the-art printing technology, ensuring vibrant and long-lasting designs. We employ a combination of precision and quality to bring your customizations to life.</p>
+                        <p className='faqtext'>Our tees come to life through vinyl heat press—a technique that offers stretchy, durable, multi-color designs with eco-friendly materials. It's all about quality that feels good and does good!</p>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="5">
                     <Accordion.Header className='prod-p'>Can I place a single order with multiple colors?</Accordion.Header>
                     <Accordion.Body>
-                        <p className='faqtext'>Absolutely! Express your style with a burst of colors. We offer a plethora of color options you to mix and match colors within a single order. Just let us know in the initial meeting. Create a truly unique wardrobe with ease.</p>
+                        <p className='faqtext'>Absolutely! Unleash your style with a kaleidoscope of colors. Mix and match to create a wardrobe that’s as vibrant and varied as you are. Just let us know your palette and we’ll take care of the rest!</p>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="6">
+                    <Accordion.Header className='prod-p'>What is the minimum order to get the t-shirt price?</Accordion.Header>
+                    <Accordion.Body>
+                        <p className='faqtext'>Our Spark tees kick in at a cozy minimum of just 200 units. Perfect for teams, events, or any group ready to rock a unified look!"
+</p>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="7">
+                    <Accordion.Header className='prod-p'>What file formats do you accept for uploading my artwork?</Accordion.Header>
+                    <Accordion.Body>
+                        <p className='faqtext'>We want your designs to shine! Send us your artwork in vector format like ai or png for top-notch quality.</p>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="8">
+                    <Accordion.Header className='prod-p'>Will there be an extra charge with my customizations?</Accordion.Header>
+                    <Accordion.Body>
+                        <p className='faqtext'>No surprises here! The prices you see for our athletic and comfort styles—$8 and $13 per unit, respectively—already include your custom flair. Customize away without a worry!</p>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="9">
+                    <Accordion.Header className='prod-p'>What is the maximum size you can screen print my design (without extra charge)?</Accordion.Header>
+                    <Accordion.Body>
+                        <p className='faqtext'>Maximize your design at no extra cost up to 8.6 x 11.8 inches(220mm x 300mm)! Want to go bigger, up to 11.7 in x 16.5 in (300mm x 420mm)? Let's talk about it in our meeting and we'll work out the details together.</p>
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>

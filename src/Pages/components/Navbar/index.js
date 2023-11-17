@@ -17,7 +17,7 @@ const NavigationBar = () => {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse className='collapse' id="basic-navbar-nav">
-                        <Nav className="ml-auto navItems">
+                        <Nav navbarScroll className="ml-auto navItems">
                             <Nav.Link as={Link} to="/" className='navItem'>Home</Nav.Link>
                             <NavDropdown title={
                                 <span className="navItem">T-Shirts</span>

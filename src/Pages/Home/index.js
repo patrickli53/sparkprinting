@@ -23,6 +23,8 @@ import athlete from '../../assets/icons8-runner-on-the-start-96.png'
 import cloud from '../../assets/icons8-cloud-96.png'
 import Footer from '../components/Footer'
 import FAQ from '../components/FAQ'
+import { useState, useRef, useEffect } from 'react'
+import { MdArrowDownward } from "react-icons/md";
 
 
 const images = [
@@ -40,18 +42,38 @@ const images = [
     id: crypto.randomUUID(),
     image
 }));
+const useMountEffect = fun => useEffect(fun, []);
 
 const Home = () => {
+    const groups = useRef(null)
+    const [showScrollTopButton, setShowScrollTopButton] = useState(true);
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 0) {
+                setShowScrollTopButton(false);
+            } else {
+                setShowScrollTopButton(true);
+            }
+        });
+    }, []);
+    const executeScroll = () => groups.current.scrollIntoView()
+    useMountEffect(executeScroll); // Scroll on mount
+
     return (
         <>
             <NavigationBar />
             <div className='homeBody'>
+                {showScrollTopButton && (
+                    <MdArrowDownward
+                        className="top-btn-position top-btn-style"
+                        onClick={executeScroll} />
+                )}
                 <div className='homeHero'>
                     <Container className='customCont'>
                         <div className='leftHero'>
                             <div className='heroText'>
-                                <h1 class="page-title">Custom T-shirt Printing for Students in Toronto and Across Canada</h1>
-                                <p class="paragraph">Toronto's most affordable shop for custom t-shirt printing for your club or event</p>
+                                <h1 class="page-title">North America's most affordable shop for custom t-shirt printing for your need.</h1>
+                                {/* <p class="paragraph"></p> */}
                                 <Link to="/athletic" class="top-text hero">$8 PER SHIRT, CUSTOMIZATION INCLUDED!</Link>
                                 <br />
                                 <div className='topPadding'>
@@ -62,15 +84,16 @@ const Home = () => {
                                 <div className='heroImg'>
                                     <img src={deltaGP} alt="Delta Group Pic" />
                                 </div>
-                                <p> Spark Printing x DeltaHacks (McMaster University), 2023 </p>
+                                <p className='caption'> Spark Printing x DeltaHacks (McMaster University), 2023 </p>
                             </div>
                         </div>
                     </Container>
                 </div>
+                <div ref={groups} style={{ height: '3rem' }} />
                 <div className='groups'>
                     <Link className='customerLink' to='/customers'>
                         <div className='rotatingcontainer'>
-                            <h2> Our Trusted Student Groups</h2>
+                            <h2 > Our Trusted Student Groups</h2>
                         </div>
                         <Banner images={images} speed={9000} />
                     </Link>
@@ -90,23 +113,21 @@ const Home = () => {
                         <h1 className='page-title customPrint'>Offering Two High-Quality Lines</h1>
                         <div className='button-cont'>
                             <Row>
-                                <Col xs='6'>
-                                    <div className='print-button'>
-                                        <Link className='print-link' to='/athletic'>
+                                <Col s='6' xs='12'>
+                                    <Link className='print-link' to='/athletic'>
+                                        <div className='print-button'>
                                             <img className='print-img' src={athlete}></img>
                                             <h3 className='print-text'> ATHLETIC</h3>
-                                        </Link>
-                                    </div>
-
+                                        </div>
+                                    </Link>
                                 </Col>
-                                <Col xs='6'>
+                                <Col s='6' xs='12'>
+                                <Link className='print-link' to='/comfort'>
                                     <div className='print-button'>
-                                        <Link className='print-link' to='/comfort'>
                                             <img className='print-img' src={cloud}></img>
                                             <h3 className='print-text'> COMFORT</h3>
-                                        </Link>
                                     </div>
-
+                                    </Link>
                                 </Col>
                             </Row>
                         </div>
@@ -114,11 +135,11 @@ const Home = () => {
                 </div>
                 <div className='info-1'>
                     <Container className='customCont'>
-                       <FAQ/>
+                        <FAQ />
                     </Container>
                 </div>
-                <Quote/>
-                <Footer/>
+                <Quote />
+                <Footer />
             </div>
 
 
