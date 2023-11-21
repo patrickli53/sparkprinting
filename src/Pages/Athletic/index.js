@@ -15,10 +15,10 @@ const Athletic = () => {
                 <Container className='customCont'>
                     <div className='product'>
                         <Row>
-                            <Col s={6} xs={12}>
+                        <Col md={6} xs={12}>
                                 <img className='prod-img' src={tshirtClassic}/>
                             </Col>
-                            <Col s={6} xs={12}className='prod-descbox'>
+                            <Col md={6} xs={12} className='prod-descbox'>
                                 <h1 className="prod-title"> Spark Athletic</h1>
                                 <h3 className="prod-subtitle"> $8 <span className='small-p'>/ Unit (Customization Included)</span></h3>
                                 <p>The Spark Athletic performance T-shirt is the ultimate ally for any action-packed day or workout sessions. Indulge in the soft embrace of its 100% polyester fabric that's as gentle as a breeze against your skin, while the advanced sweat-absorption feature keeps you fresh and focused. This breathable wonder guarantees a carefree and stylish look that moves with you.  </p>
@@ -34,7 +34,7 @@ const Athletic = () => {
                                         <Accordion.Header className='prod-p'>Size Chart</Accordion.Header>
                                         <Accordion.Body>
                                         <img className='prod-measure' src={tshirtClassicMeasure}/>
-                                        <img className='prod-measure' src={inches}/>
+                                        {/* <img className='prod-measure' src={inches}/> */}
 
                                         </Accordion.Body>
                                     </Accordion.Item>

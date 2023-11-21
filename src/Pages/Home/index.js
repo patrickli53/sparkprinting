@@ -113,7 +113,7 @@ const Home = () => {
                         <h1 className='page-title customPrint'>Offering Two High-Quality Lines</h1>
                         <div className='button-cont'>
                             <Row>
-                                <Col s='6' xs='12'>
+                                <Col md={6} xs={12} >
                                     <Link className='print-link' to='/athletic'>
                                         <div className='print-button'>
                                             <img className='print-img' src={athlete}></img>
@@ -121,8 +121,8 @@ const Home = () => {
                                         </div>
                                     </Link>
                                 </Col>
-                                <Col s='6' xs='12'>
-                                <Link className='print-link' to='/comfort'>
+                                <Col md={6} xs={12} >
+                                    <Link className='print-link pl1' to='/comfort'>
                                     <div className='print-button'>
                                             <img className='print-img' src={cloud}></img>
                                             <h3 className='print-text'> COMFORT</h3>

@@ -14,10 +14,10 @@ const Athletic = () => {
                 <Container className='customCont'>
                     <div className='product'>
                         <Row>
-                            <Col s={6} xs={12}>
+                            <Col md={6} xs={12}>
                                 <img className='prod-img' src={tshirtClassic}/>
                             </Col>
-                            <Col s={6} xs={12} className='prod-descbox'>
+                            <Col md={6} xs={12} className='prod-descbox'>
                                 <h1 className="prod-title"> Spark Comfort</h1>
                                 <h3 className="prod-subtitle"> $13 <span className='small-p'>/ Unit (Customization Included)</span></h3>
                                 <p>Step into a world of supreme comfort with the Spark Comfort T-shirt, crafted for those who value both comfort and longevity. This tee is a cozy blend of 90% cotton and 10% Lycra, giving you the best of both worlds: the comfortable, soft touch of cotton and the flexible, shape-retaining properties of Lycra.</p>
@@ -33,7 +33,7 @@ const Athletic = () => {
                                         <Accordion.Header className='prod-p'>Size Chart</Accordion.Header>
                                         <Accordion.Body>
                                         <img className='prod-measure' src={tshirtClassicMeasure}/>
-                                        <img className='prod-measure' src={inches}/>
+                                        {/* <img className='prod-measure' src={inches}/> */}
 
                                         </Accordion.Body>
                                     </Accordion.Item>
