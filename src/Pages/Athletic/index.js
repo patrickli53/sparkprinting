@@ -4,8 +4,8 @@ import Quote from '../components/Quote'
 import './styles.css'
 import { Container, Row, Col, Accordion } from "react-bootstrap"
 import tshirtClassic from '../../assets/images/tshirt-classic.jpg'
-import tshirtClassicMeasure from '../../assets/tshirt-classic-measurements.webp'
-import inches from '../../assets/images/sizechartinches.png'
+import tshirtClassicMeasure from '../../assets/images/sizechartcm.jpg'
+import inches from '../../assets/images/sizechartinches.jpg'
 
 const Athletic = () => {
     return(
@@ -34,7 +34,7 @@ const Athletic = () => {
                                         <Accordion.Header className='prod-p'>Size Chart</Accordion.Header>
                                         <Accordion.Body>
                                         <img className='prod-measure' src={tshirtClassicMeasure}/>
-                                        {/* <img className='prod-measure' src={inches}/> */}
+                                        <img className='prod-measure' src={inches}/>
 
                                         </Accordion.Body>
                                     </Accordion.Item>
