@@ -32,7 +32,7 @@ const HorTimeline = () => {
     {
         title: "Delivery",
         cardTitle: "2 - 4 Weeks",
-        cardDetailedText: "Choose Standard (2 weeks) or Express (4 weeks) for your delivery speed."
+        cardDetailedText: "Choose Standard (4 weeks) or Express (2 weeks) for your delivery speed."
     },
  ];
 

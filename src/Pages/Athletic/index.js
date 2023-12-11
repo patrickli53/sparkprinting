@@ -41,7 +41,7 @@ const Athletic = () => {
                                     <Accordion.Item eventKey="2">
                                         <Accordion.Header className='prod-p'>Delivery Options</Accordion.Header>
                                         <Accordion.Body>
-                                        <p>• Standard Shipping (7 Weeks) - $100 <br/>• Express Shipping (5 Weeks) - $500<br/>Shipping Times and Prices apply for all order sizes.</p>
+                                        <p>• Standard Shipping (7 Weeks) - $100 <br/>• Express Shipping (5 Weeks) - Additional $500 ($600 Total)<br/>Shipping Times and Prices apply for all order sizes.</p>
                                         </Accordion.Body>
                                     </Accordion.Item>
                                 </Accordion>
